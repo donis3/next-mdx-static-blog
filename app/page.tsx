@@ -10,7 +10,7 @@ export default function Home() {
 				This is a starter repo for a statically generated next.js blog
 				site. Clone the repository and start your own blog today! Visit
 				the github repo{" "}
-				<Link href={"https://github.com/donis3/next-mdx-static-blog"} className="underline">
+				<Link  prefetch={false}  href={"https://github.com/donis3/next-mdx-static-blog"} className="underline">
 					here.
 				</Link>
 			</p>

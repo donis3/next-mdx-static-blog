@@ -19,14 +19,22 @@ export default function RootLayout({
 				{/* Navbar */}
 				<header className="h-16  border-b shadow-sm fixed top-0 left-0 w-full bg-slate-200 dark:bg-zinc-900 dark:border-black">
 					<div className="container flex flex-row gap-4 justify-between mx-auto">
-						<Link href={"/"}>
-							<h1 className="p-4 text-2xl font-bold">📑NextBlog</h1>
+						<Link prefetch={false} href={"/"}>
+							<h1 className="p-4 text-2xl font-bold">
+								📑NextBlog
+							</h1>
 						</Link>
 						<nav className="flex-1 flex flex-wrap p-4 items-end justify-end gap-4 text-lg font-semibold ">
-							<Link href={"/"} className="underline">
+							<Link
+								prefetch={false}
+								href={"/"}
+								className="underline">
 								Home
 							</Link>
-							<Link href={"/blog"} className="underline">
+							<Link
+								prefetch={false}
+								href={"/blog"}
+								className="underline">
 								Blog
 							</Link>
 						</nav>

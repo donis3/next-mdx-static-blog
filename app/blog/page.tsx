@@ -22,7 +22,7 @@ export default async function Blogs() {
 				{blogs.map((blog) => {
 					return (
 						<li key={blog.id}>
-							<Link href={`/blog/${blog.id}`}>
+							<Link prefetch={false} href={`/blog/${blog.id}`}>
 								{blog.title}
 								<span className="ml-2 text-xs opacity-50">
 									{blog.date.toLocaleDateString()}

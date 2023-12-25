@@ -41,6 +41,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
 		<div className="container mx-auto p-4">
 			<div>
 				<Link
+					prefetch={false}
 					href={"/blog"}
 					className="text-sm font-medium p-2 rounded-md hover:bg-slate-200 dark:hover:bg-zinc-600">
 					&larr; All Blogs
