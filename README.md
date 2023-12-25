@@ -32,4 +32,4 @@ All blog posts will be listed in the `<blogurl>/blog` route automatically. This 
 
 ## Further Reading
 
-This is part of a guide I created as a blog post that can be read (here.)[https://donis.dev/blog/post/markdown_blog]
+This is part of a guide I created as a blog post that can be read [here](https://donis.dev/blog/post/markdown_blog)
